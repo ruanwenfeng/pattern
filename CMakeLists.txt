@@ -5,7 +5,7 @@ add_definitions(-std=c++11)
 set(CMAKE_CONFIGURATION_TYPES "Debug;Release")
 include_directories("SimpleFactory/include")
 add_subdirectory(SimpleFactory)
-
+add_subdirectory(Factory)
 
 #aux_source_directory(. SRC_LIST)
 #include_directories(include)
